@@ -27,7 +27,7 @@ const drugindex = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          As my first web development project, I designed and developed a user-friendly website that assists people in my area in locating maternity and women`&apos;`s clinics easily. The project was well-received, and the website continues to be utilized, streamlining healthcare access for the community.
+          As my first web development project, I designed and developed a user-friendly website that assists people in my area in locating maternity and womens clinics easily. The project was well-received, and the website continues to be utilized, streamlining healthcare access for the community.
 
           </p>
 
