@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaPhone } from 'react-icons/fa'
 import ContactImg from '../../public/assets/contact.jpg';
 import Image from 'next/image';
 const Contact = () => {
@@ -34,7 +34,7 @@ const Contact = () => {
               <p className='uppercase pt-8'>Connect With Me</p>
               <div className='flex items-center justify-between py-4'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/dulanjan-chanaka-dc94/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -43,7 +43,7 @@ const Contact = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/DulanjanChanaka'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -51,12 +51,12 @@ const Contact = () => {
                     <FaGithub />
                   </div>
                 </a>
-
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                  <AiOutlineMail />
-                </div>
-       
+                
+              
               </div>
+
+
+           
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                     <form
             
               >
-                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                <div className='grid md:grid-cols-2 gap-4 w-full  py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
