@@ -36,7 +36,7 @@ const Footer = () => {
             <Link href='/#contact'>Contact</Link>
           </div>
           <p className='text-center md:text-left'>
-            Copyright 2023. All rights reserved.
+             Copyright 2023. All rights reserved.
           </p>
         </div>
       </div>
