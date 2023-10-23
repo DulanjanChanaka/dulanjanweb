@@ -10,8 +10,8 @@ const Main = () => {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>LETS BUILD CREATIVE SOMETHING TOGETHER</p>
                 <h1 className='py-4 text-gray-700'>Hi I am < span className='text-[#5651e5]'>Dulanjan</span></h1>
-                <h1 className='py-4 text-gray-700'>A Front-End Developer</h1>
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I am a front end developer. I am develope using React.js , Next.js</p>
+                <h1 className='py-4 text-gray-700'>A Front-End  Developer </h1>
+                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I am a front end developer. I am develope using React Native, React.js , Next.js</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <a href='https://www.linkedin.com/in/dulanjan-chanaka-dc94/'><FaLinkedinIn /></a>

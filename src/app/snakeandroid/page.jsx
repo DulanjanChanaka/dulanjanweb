@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import semikoImage from '../../../public/assets/projects/semico.png';
+import Petbank from '../../../public/assets/projects/snakeandroid.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const semiko = () => {
+const SnakeAndroid = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const semiko = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={semikoImage}
+          src={Petbank}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Semiko Bathware</h2>
-          <h3>NEXT JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>SL Snakes Android</h2>
+          <h3>React Native / Tailwind / Firebase</h3>
         </div>
       </div>
 
@@ -27,10 +27,10 @@ const semiko = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Built an interactive e-commerce website for a bathware shop, using Next.js technology and Firebase database integration. Designed and implemented a comprehensive dashboard system for efficient data input and management.
+          This is an app I created to provide basic knowledge about snakes in Sri Lanka and to prevent unnecessary killing of snakes. I specifically targeted this project for people who do not have the slightest knowledge about snakes in Sri Lanka. Currently, when they see a snake, they mostly post a photo of the snake they saw in a Facebook group and ask someone who has knowledge about it. It will take some time. As soon as he sees the snake, he can click the search icon on this web app and select from the drop down menu related to the snake and filter through the suggestion list that comes, that person can get an idea about the snake. At least that person can get an idea about whether it is toxic or not. I have designed this for mobile devices only. Because the people of Sri Lanka are mostly used to using the app through the smart phone. I am very happy if an animal's life is saved.
           </p>
           <a
-            href='https://samikobathware.com/'
+            href='https://play.google.com/store/apps/details?id=com.dcdevelopment.slsnakes&pcampaignid=web_share'
             target='_blank'
             rel='noreferrer'
           >
@@ -44,7 +44,7 @@ const semiko = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next js
+                <RiRadioButtonFill className='pr-1' /> React Native
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
@@ -65,4 +65,4 @@ const semiko = () => {
   );
 };
 
-export default semiko;
+export default SnakeAndroid;
