@@ -29,13 +29,13 @@ const snake = () => {
           <p>
           This is an app I created to provide basic knowledge about snakes in Sri Lanka and to prevent unnecessary killing of snakes. I specifically targeted this project for people who do not have the slightest knowledge about snakes in Sri Lanka. Currently, when they see a snake, they mostly post a photo of the snake they saw in a Facebook group and ask someone who has knowledge about it. It will take some time. As soon as he sees the snake, he can click the search icon on this web app and select from the drop down menu related to the snake and filter through the suggestion list that comes, that person can get an idea about the snake. At least that person can get an idea about whether it is toxic or not. I have designed this for mobile devices only. Because the people of Sri Lanka are mostly used to using the app through the smart phone. I am very happy if an animals life is saved.
           </p>
-          {/* <a
-            href=''
+          <a
+            href='https://sarpayo.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a> */}
+            <button className='px-8 py-2 mt-4 mr-8'>Visit</button>
+          </a>
           {/* <a
             href=''
             target='_blank'

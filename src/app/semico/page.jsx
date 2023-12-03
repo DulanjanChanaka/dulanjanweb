@@ -29,13 +29,7 @@ const semiko = () => {
           <p>
           Built an interactive e-commerce website for a bathware shop, using Next.js technology and Firebase database integration. Designed and implemented a comprehensive dashboard system for efficient data input and management.
           </p>
-          <a
-            href='https://samikobathware.com/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Visit</button>
-          </a>
+    
         
         
         </div>

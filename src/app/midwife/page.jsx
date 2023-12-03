@@ -31,13 +31,7 @@ const drugindex = () => {
 
           </p>
 
-          <a
-            href='https://creative-custard-b9d239.netlify.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Visit</button>
-          </a>
+     
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

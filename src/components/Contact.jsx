@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import ContactImg from '../../public/assets/contact.jpg';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -41,12 +41,12 @@ const Contact = () => {
       }
   };
   return (
-    <div id='contact' className='w-full lg:h-screen lg:mb-[150px]'>
+    <div id='contact' className='w-full lg:h-screen '>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
-        <h2 className='py-4'>Get In Touch</h2>
+        <h2 className='py-8'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -59,7 +59,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Dulanjan</h2>
+                <h2 className='py-3'>Dulanjan</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
@@ -67,8 +67,8 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <p className='uppercase pt-4'>Connect With Me</p>
+                <div className='flex flex-row items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/dulanjan-chanaka-dc94/'
                     target='_blank'
@@ -76,6 +76,15 @@ const Contact = () => {
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href='https://www.facebook.com/dulanjan.walpitagama/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <FaFacebook/>
                     </div>
                   </a>
                   <a
@@ -102,11 +111,11 @@ const Contact = () => {
               onSubmit={handleSubmit}
 
               >
-                <div className='grid md:grid-cols-2 gap-4 w-full  py-2'>
+                <div className='grid md:grid-cols-2 gap-2  py-2'>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Name</label>
+                    <label className='uppercase text-sm py-1'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-2 flex border-gray-300'
                       type='text'
                       name='name'
                       value={name}
@@ -115,11 +124,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
+                    <label className='uppercase text-sm py-1'>
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-2 flex border-gray-300'
                       type='text'
                       name='phone'
                       value={cno}
@@ -129,9 +138,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Email</label>
+                  <label className='uppercase text-sm py-1'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-2 flex border-gray-300'
                     type='email'
                     name='email'
                     value={email}
@@ -140,9 +149,9 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
+                  <label className='uppercase text-sm py-1'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300'
+                    className='border-2 rounded-lg p-2 flex border-gray-300'
                     type='text'
                     name='subject'
                     value={subject}
@@ -151,10 +160,10 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
+                  <label className='uppercase text-sm py-1'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
-                    rows='10'
+                    className='border-2 rounded-lg p-2 border-gray-300'
+                    rows='5'
                     name='message'
                     value={message}
                       onChange={(e) => setMessage(e.target.value)}
